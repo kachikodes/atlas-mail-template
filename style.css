@@ -1,0 +1,31 @@
+.welcome img {
+    width:1263px;
+   } 
+
+.section {
+    line-height: 2.0;
+}
+
+ .foot img {
+    width:1263px;
+ }  
+
+
+/* MEDIA QUERY */
+@media (max-device-width:576px) {
+   .welcome img {
+    width:576px;
+   }
+   
+    .section {
+        justify-content: center;
+        align-items: center;
+        width:560px;
+    }
+
+    .foot img {
+        width:576px;
+    }
+}
+
+
